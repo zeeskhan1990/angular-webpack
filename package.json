@@ -10,8 +10,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm time-logger.js time-logger.js.map time-logger-2.js time-logger-2.js.map common.js common.js.map",
-    "start": "webpack && http-server -p 8080",
-    "watch": "webpack-dev-server --hot --inline --config webpack.config.js"
+    "start": "webpack && http-server -p 8282",
+    "watch": "webpack-dev-server --hot --inline --config webpack.config.js --port 8282"
   },
   "author": "Jeremy Lund <jeremylund@workfront.com>",
   "license": "Apache-2.0",
